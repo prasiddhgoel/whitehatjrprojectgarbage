@@ -25,8 +25,7 @@ function setup() {
 	ground = new Ground (700,280,1400,10);
 	dustbin1 = new Dustbin (1000,220,20,80);
 	dustbin2 = new Dustbin (1090,265,200,20)
-	dustbin3 = new Dustbin (1180,220,20,80);
-	db =new Dustbin (1180,220,80,80)
+	dustbin3 = new Dustbin (1180,220,20,80); 
 
 	Engine.run(engine);
   
@@ -39,8 +38,7 @@ function draw() {
   background("white");
   paper.display();
   ground.display();
-  
-  db.display()
+ image(dbimage,900,80,)
   drawSprites();
  
 }
