@@ -19,8 +19,8 @@ class Dustbin{
         push();
         translate(pos.x, pos.y);
      
-        imageMode(CENTER)
-        image (this.db,0,-1,130,130)
+        rectMode(CENTER)
+        rect(0,-1,130,130)
         pop();
       }
     };
