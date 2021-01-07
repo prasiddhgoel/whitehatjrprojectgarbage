@@ -38,7 +38,7 @@ function draw() {
   background("white");
   paper.display();
   ground.display();
- image(dbimage,900,80,)
+ image(dbimage,900,80,200,200)
   drawSprites();
  
 }
